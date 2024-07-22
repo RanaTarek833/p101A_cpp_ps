@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // prompting user for number 1.5/1.5
     float x;
     int y;
     char r;
@@ -14,6 +15,8 @@ int main()
     y=x;
     r=x;
 
+    // checking invalidaty of user's input 4/4
+	// printing the number and the opposite printable character 2/2
     if ( x==0 )
     {
         cout << "Invalid character/s or zero value. \n";
@@ -26,7 +29,7 @@ int main()
 
     else if ( y==x )
     {
-        if ( y<0 || y<32 || y>126 )
+        if ( y<32 || y>126 )
         {
             cout << "Invalid: number is out of the range. \n";
         }
@@ -41,3 +44,4 @@ int main()
 
     return 0;
 }
+// great work 😎 9.5/10 ⭐
